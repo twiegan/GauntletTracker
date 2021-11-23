@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyCTlvBM05NCb1UqzSOtyxRZmEOi2D_V_kk",
   authDomain: "gauntlettracker.firebaseapp.com",
+  databaseURL: "https://gauntlettracker-default-rtdb.firebaseio.com",
   projectId: "gauntlettracker",
   storageBucket: "gauntlettracker.appspot.com",
   messagingSenderId: "558145500004",
@@ -12,3 +13,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+export default app;
